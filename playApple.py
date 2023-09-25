@@ -24,7 +24,7 @@ def main():
     frame = 0
 
     while frame < frames:
-        os.system('cls')
+        # os.system('cls')
         if (t:=time.time()) > startTime + (1/30) * frame:
             print(data[frame])
             frame += 1
